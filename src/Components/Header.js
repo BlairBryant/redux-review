@@ -16,10 +16,4 @@ function Header(props) {
     )
 }
 
-function mapStateToProps(state) {
-    return {
-        
-    }
-}
-
-export default connect(mapStateToProps, {increase, setCapsInput})(Header)
+export default connect(null, {increase, setCapsInput})(Header)
